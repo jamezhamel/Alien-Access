@@ -1,0 +1,2083 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\james\OneDrive\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/james/Desktop/gameprototype/Alien Access
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63448
+Successfully changed project path to: C:/Users/james/Desktop/gameprototype/Alien Access
+C:/Users/james/Desktop/gameprototype/Alien Access
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/james/Desktop/gameprototype/Alien Access/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Users/james/OneDrive/2020.3.28f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.005481 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (609ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2217 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 3.046200 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.650900 ms  DeleteObjects: 0.126800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/spr_stars02.png
+  artifactKey: Guid(abe60260799f62b46baa78f79d1c1e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/spr_stars02.png using Guid(abe60260799f62b46baa78f79d1c1e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f635e15d16acd23de39b9cab03828') in 0.123500 seconds 
+  Import took 0.127160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.830622 seconds.
+  path: Assets/Sprites/Materials
+  artifactKey: Guid(7203c4b09b1d006498fac295301b3c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials using Guid(7203c4b09b1d006498fac295301b3c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aece38dfd26e7df2a5ef77b9d73617') in 0.009430 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078202 seconds.
+  path: Assets/Sprites/Materials/spr_stars02.mat
+  artifactKey: Guid(877dfd0dff53479468d4f3e02602c715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/spr_stars02.mat using Guid(877dfd0dff53479468d4f3e02602c715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8aa7555a4c251b0aec91dda38d9024') in 0.042604 seconds 
+  Import took 0.046629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 559.312937 seconds.
+  path: Assets/Tiles/New Palette.prefab
+  artifactKey: Guid(9a7aa2d32deb08643a03558cabb2e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/New Palette.prefab using Guid(9a7aa2d32deb08643a03558cabb2e8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca51a03982201f9dc97e40eed2a366c6') in 0.229373 seconds 
+  Import took 0.241328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_17.asset
+  artifactKey: Guid(2e66fd6e23c087449b4b44dcb2caba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_17.asset using Guid(2e66fd6e23c087449b4b44dcb2caba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17082c60704b59448d553b05ce2e804b') in 0.026442 seconds 
+  Import took 0.030141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_3.asset
+  artifactKey: Guid(c6667c328f9a978408cbcc57dd84ffcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_3.asset using Guid(c6667c328f9a978408cbcc57dd84ffcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd907d7e9c500e9f94bee84de67a1f77') in 0.014155 seconds 
+  Import took 0.017599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_42.asset
+  artifactKey: Guid(b7359c4a54cc3fe43bc03385b9c80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_42.asset using Guid(b7359c4a54cc3fe43bc03385b9c80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2f8feb36313e351c30c7fb1d042e55') in 0.009858 seconds 
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_37.asset
+  artifactKey: Guid(9b255196c76f0b849bf420706cb2686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_37.asset using Guid(9b255196c76f0b849bf420706cb2686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a43ae173dee376a8935e33fda3c8fd3') in 0.012008 seconds 
+  Import took 0.015072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_57.asset
+  artifactKey: Guid(76a3e8303fe56f54989b6a2bfcd8f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_57.asset using Guid(76a3e8303fe56f54989b6a2bfcd8f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032647117835b256128d7657aa9807cd') in 0.011986 seconds 
+  Import took 0.016442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_13.asset
+  artifactKey: Guid(51ad6b8b54e5a734ba5e491dc65e36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_13.asset using Guid(51ad6b8b54e5a734ba5e491dc65e36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23743d7952fa459eb22a045c07e707') in 0.014216 seconds 
+  Import took 0.018100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_1.asset
+  artifactKey: Guid(29471e139564d4e4e91969fd4e35793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_1.asset using Guid(29471e139564d4e4e91969fd4e35793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7756e3a054204d88a2cd934fc6488e0e') in 0.010399 seconds 
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_8.asset
+  artifactKey: Guid(92d85d1b33f956d42a455e42657fed6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_8.asset using Guid(92d85d1b33f956d42a455e42657fed6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88670234a80341713682b0eac9a88502') in 0.011429 seconds 
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_9.asset
+  artifactKey: Guid(177d502bde48e17428b9336a1edae151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_9.asset using Guid(177d502bde48e17428b9336a1edae151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e263ba4e63790a4d0a62dc5f5146e3') in 0.010268 seconds 
+  Import took 0.013317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_22.asset
+  artifactKey: Guid(59dd2e2e7cf108749b2a555ac186af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_22.asset using Guid(59dd2e2e7cf108749b2a555ac186af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3f2afaf7baeed48c33901068d7ba66') in 0.009751 seconds 
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_53.asset
+  artifactKey: Guid(a3572d16524f0734dae8068349c99451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_53.asset using Guid(a3572d16524f0734dae8068349c99451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e522bbad788cee1ed2704591d4ef699') in 0.008812 seconds 
+  Import took 0.012534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_46.asset
+  artifactKey: Guid(61cf4ff28acf75042823ec73d8bbcc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_46.asset using Guid(61cf4ff28acf75042823ec73d8bbcc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b10725ba6514230f2898b1f0602fdd7') in 0.009051 seconds 
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_25.asset
+  artifactKey: Guid(5bd543f50f2748d4297fe254d0b10fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_25.asset using Guid(5bd543f50f2748d4297fe254d0b10fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063156e9b3e5fce081425025a0994f0d') in 0.009323 seconds 
+  Import took 0.013162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_41.asset
+  artifactKey: Guid(8d8f89d444dcce54bb0d77039afa24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_41.asset using Guid(8d8f89d444dcce54bb0d77039afa24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd59a640f10d51901e6056205b2f946') in 0.010141 seconds 
+  Import took 0.014179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_15.asset
+  artifactKey: Guid(b0bc223cde4327d46b4e6f8e8e45033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_15.asset using Guid(b0bc223cde4327d46b4e6f8e8e45033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adcba4cdd6f051b30995ef73a957ba2') in 0.009647 seconds 
+  Import took 0.013750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_26.asset
+  artifactKey: Guid(46d5eaf6f63a53c4481708bfb958a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_26.asset using Guid(46d5eaf6f63a53c4481708bfb958a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0af762e704507dbe634c936cf21809b') in 0.009893 seconds 
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_18.asset
+  artifactKey: Guid(7e690a7fb78d88a4eb52796be6ec4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_18.asset using Guid(7e690a7fb78d88a4eb52796be6ec4f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195c3ee63b4a63c0176511172b3de3df') in 0.009836 seconds 
+  Import took 0.013148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_56.asset
+  artifactKey: Guid(25f8c42d3a7435f42b5ecd612b461af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_56.asset using Guid(25f8c42d3a7435f42b5ecd612b461af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2881da9fb0bdd40c822c156e1b6fe18') in 0.011563 seconds 
+  Import took 0.014623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_43.asset
+  artifactKey: Guid(240b7d5f2815db84a8421d57ad61e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_43.asset using Guid(240b7d5f2815db84a8421d57ad61e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d186a26e66084793b3d03070fefc58') in 0.009525 seconds 
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_28.asset
+  artifactKey: Guid(0aa048fc64f3dc6479c4f54c20432d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_28.asset using Guid(0aa048fc64f3dc6479c4f54c20432d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9f9d766df49ed2b12656721617198c') in 0.008454 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_29.asset
+  artifactKey: Guid(b68a6d853a9ed704c8b20b0de36c13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_29.asset using Guid(b68a6d853a9ed704c8b20b0de36c13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bae8cc578c84bed96a5fd6949e0722') in 0.009659 seconds 
+  Import took 0.012765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_19.asset
+  artifactKey: Guid(42ead111a7f84284498898b461e0b3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_19.asset using Guid(42ead111a7f84284498898b461e0b3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede633272c85ee7105755702df5655ff') in 0.009036 seconds 
+  Import took 0.012640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_38.asset
+  artifactKey: Guid(157f2d222904bb548be761d487bccc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_38.asset using Guid(157f2d222904bb548be761d487bccc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdaa7df18de688baa66b73327461df') in 0.009274 seconds 
+  Import took 0.013060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_0.asset
+  artifactKey: Guid(c521bf8516519124089adfcccac4dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_0.asset using Guid(c521bf8516519124089adfcccac4dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8066e30a69080605a35ec46441b77198') in 0.009158 seconds 
+  Import took 0.012626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_10.asset
+  artifactKey: Guid(4a7f6e5a0cc86fd46bdbd39fcdd93f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_10.asset using Guid(4a7f6e5a0cc86fd46bdbd39fcdd93f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb9f8c12fba79e9e2c425c2a042564') in 0.008665 seconds 
+  Import took 0.011858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_45.asset
+  artifactKey: Guid(cf9d3a4e888d40347ba2faedb237007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_45.asset using Guid(cf9d3a4e888d40347ba2faedb237007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014cf042646cbc520b42563c81bd97b') in 0.009429 seconds 
+  Import took 0.013032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_35.asset
+  artifactKey: Guid(b8b0b3968a929c04b88a2afc36558ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_35.asset using Guid(b8b0b3968a929c04b88a2afc36558ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e8c896f4ab5fb7652eb523a957a1c5') in 0.009791 seconds 
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_24.asset
+  artifactKey: Guid(8495090e107bbf245b29e8d2f815c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_24.asset using Guid(8495090e107bbf245b29e8d2f815c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1224165be64e0fcfb18cc3fe6af4d0c') in 0.010362 seconds 
+  Import took 0.014443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_48.asset
+  artifactKey: Guid(f5cc66e25a76e3c4784b8cdd0150a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_48.asset using Guid(f5cc66e25a76e3c4784b8cdd0150a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248f0d646fc4eecf8fd0ade737da4333') in 0.009401 seconds 
+  Import took 0.013368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_40.asset
+  artifactKey: Guid(e29c5f6dfe88ec54b947d3cece94e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_40.asset using Guid(e29c5f6dfe88ec54b947d3cece94e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6880962758149a33625f44654141672f') in 0.009057 seconds 
+  Import took 0.012559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_55.asset
+  artifactKey: Guid(abc82bf611aa92648b25bc0ca147ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_55.asset using Guid(abc82bf611aa92648b25bc0ca147ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f27ce5c2b02cae363b708f605c057ec') in 0.009596 seconds 
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_23.asset
+  artifactKey: Guid(1b9821774b9523143bcaa0772f8de428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_23.asset using Guid(1b9821774b9523143bcaa0772f8de428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c512dff31b1cd37a813a07f2933543') in 0.009424 seconds 
+  Import took 0.013349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_54.asset
+  artifactKey: Guid(0b6ee38f1a9c60748949467463f2c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_54.asset using Guid(0b6ee38f1a9c60748949467463f2c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5db9ebe564963efa2b677565d5066c3') in 0.008598 seconds 
+  Import took 0.012213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_34.asset
+  artifactKey: Guid(f0e2f09285cc6624dbae44fcddc4c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_34.asset using Guid(f0e2f09285cc6624dbae44fcddc4c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e3497a0e6204f896db184842aec49') in 0.010551 seconds 
+  Import took 0.014619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_30.asset
+  artifactKey: Guid(56b3261cd829ca647b65d0cb37b631a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_30.asset using Guid(56b3261cd829ca647b65d0cb37b631a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdada635e786ea6bf6041ba7a537e78') in 0.008886 seconds 
+  Import took 0.012452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_49.asset
+  artifactKey: Guid(5032182204313774795a7f294e13469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_49.asset using Guid(5032182204313774795a7f294e13469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd6278ac3623ffd76f13ed06d2cef4a') in 0.009288 seconds 
+  Import took 0.012738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_27.asset
+  artifactKey: Guid(9fdf68db3f6e94c45a6cdf6ddbc10a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_27.asset using Guid(9fdf68db3f6e94c45a6cdf6ddbc10a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783370a18fa57e664d4e109930cb1cf1') in 0.010120 seconds 
+  Import took 0.013567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_39.asset
+  artifactKey: Guid(00376283be0ec4c42b9cf361337f2342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_39.asset using Guid(00376283be0ec4c42b9cf361337f2342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aa8a30b198bb6f257afa676f9e03fd') in 0.008971 seconds 
+  Import took 0.012457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_21.asset
+  artifactKey: Guid(7ac4549466439f448adcf788fe4af44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_21.asset using Guid(7ac4549466439f448adcf788fe4af44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a52b2f332cfb1fe20aa735ea6142651') in 0.009092 seconds 
+  Import took 0.012124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_14.asset
+  artifactKey: Guid(388f002b22404de44b99f96336018ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_14.asset using Guid(388f002b22404de44b99f96336018ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cf6fd627589e560677301c69e7dbed') in 0.009338 seconds 
+  Import took 0.012520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_31.asset
+  artifactKey: Guid(66f693437ec7b5340abe98ddd57b1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_31.asset using Guid(66f693437ec7b5340abe98ddd57b1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df05b4880aa245cfdba1680bf60dfec1') in 0.010616 seconds 
+  Import took 0.014354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_6.asset
+  artifactKey: Guid(9b59b7c59129b3b4094564ad6de2c5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_6.asset using Guid(9b59b7c59129b3b4094564ad6de2c5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22264bd56623128b1bc3e94a5b45560') in 0.009242 seconds 
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_32.asset
+  artifactKey: Guid(4ec79a660d7771b479144d693532bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_32.asset using Guid(4ec79a660d7771b479144d693532bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d1a9701c6bfc2fbc8f58e7f92e4ef6') in 0.008922 seconds 
+  Import took 0.012541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_50.asset
+  artifactKey: Guid(b84e7cdd5a6ba5448b318dda4aaf1836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_50.asset using Guid(b84e7cdd5a6ba5448b318dda4aaf1836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7ebff5f71c7c0e70ee2a1a1a88489') in 0.009331 seconds 
+  Import took 0.012559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_20.asset
+  artifactKey: Guid(bbd2f7185211efa40969317198a54034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_20.asset using Guid(bbd2f7185211efa40969317198a54034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c073c4a22637fc4961566e1f7fce00') in 0.008667 seconds 
+  Import took 0.011927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_36.asset
+  artifactKey: Guid(9515c1633d227374b89528d9fef2b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_36.asset using Guid(9515c1633d227374b89528d9fef2b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57aab2d132f52ed08fe137a53f77b8ef') in 0.010243 seconds 
+  Import took 0.013869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_2.asset
+  artifactKey: Guid(b5fe3fb5ade858140be146c94e5c515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_2.asset using Guid(b5fe3fb5ade858140be146c94e5c515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d27a68ca954c841c4bcf467a4f299f') in 0.009197 seconds 
+  Import took 0.012921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_16.asset
+  artifactKey: Guid(a4ab4ebb45de37542ab2816376034a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_16.asset using Guid(a4ab4ebb45de37542ab2816376034a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be9a99377da9032aa71cc3229b341e9') in 0.011594 seconds 
+  Import took 0.015418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_7.asset
+  artifactKey: Guid(198cf1ae7537b064ebbfbc9afd14b710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_7.asset using Guid(198cf1ae7537b064ebbfbc9afd14b710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d81b56dffe0bfe393041e9969df14c8') in 0.009354 seconds 
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_12.asset
+  artifactKey: Guid(95dd21c847a1a284cb505c58169b4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_12.asset using Guid(95dd21c847a1a284cb505c58169b4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3302938c2ee7d43c599e7f6a282f7c') in 0.010667 seconds 
+  Import took 0.014583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_4.asset
+  artifactKey: Guid(8a40f554dc2f8fa4c9dbcb795a9575b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_4.asset using Guid(8a40f554dc2f8fa4c9dbcb795a9575b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb91e03ac308a8ab0246fe94350ebf') in 0.009923 seconds 
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_11.asset
+  artifactKey: Guid(2eecfb4f8d7a01f4db144056f69e4f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_11.asset using Guid(2eecfb4f8d7a01f4db144056f69e4f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a7499a8febbead5c46c771bf261a91') in 0.009089 seconds 
+  Import took 0.012778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_47.asset
+  artifactKey: Guid(74ba8ca968072fc44b572a74cbf2d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_47.asset using Guid(74ba8ca968072fc44b572a74cbf2d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e2e30b21b7b6f50d6a76174d9a9ec9') in 0.009802 seconds 
+  Import took 0.013392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_51.asset
+  artifactKey: Guid(e809b89f695eb5d4e993c85ed6959182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_51.asset using Guid(e809b89f695eb5d4e993c85ed6959182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff946a86a572d177c534468a4cfdc91') in 0.009912 seconds 
+  Import took 0.013702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_52.asset
+  artifactKey: Guid(928400de3eec60e4583eed4941aaeb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_52.asset using Guid(928400de3eec60e4583eed4941aaeb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92afa656c608b00d996c465e6f2a5167') in 0.009138 seconds 
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_33.asset
+  artifactKey: Guid(5e63e573624735f4b9aad05c01b36809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_33.asset using Guid(5e63e573624735f4b9aad05c01b36809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b4b071d821d006c2a1bff64a9060c8') in 0.010236 seconds 
+  Import took 0.013918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_5.asset
+  artifactKey: Guid(3d6231e27ae151c4894e5e37f23e6368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_5.asset using Guid(3d6231e27ae151c4894e5e37f23e6368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e2d36a529146c0b7d885e83effc546') in 0.010070 seconds 
+  Import took 0.014357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_44.asset
+  artifactKey: Guid(a15136ea08da2784f9edfed81c5903b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_44.asset using Guid(a15136ea08da2784f9edfed81c5903b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c88af692ceffdf70952d834863ae5f') in 0.008867 seconds 
+  Import took 0.012921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.555630 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_58.asset
+  artifactKey: Guid(125cca3f778bf0843bbb0cdf2d364e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_58.asset using Guid(125cca3f778bf0843bbb0cdf2d364e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc5b342259d6d7edea4e61808a03a5f') in 0.009284 seconds 
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_61.asset
+  artifactKey: Guid(916d57f686ef1bb45bcfb86a6b9de5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_61.asset using Guid(916d57f686ef1bb45bcfb86a6b9de5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb962616af7f8bb8928cf2b1467ebfd4') in 0.011537 seconds 
+  Import took 0.014819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_66.asset
+  artifactKey: Guid(4d768196e42fc7643aa0be3c4551d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_66.asset using Guid(4d768196e42fc7643aa0be3c4551d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6126a7f0a1d1bf49411f452a1bdb033') in 0.009166 seconds 
+  Import took 0.012397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_64.asset
+  artifactKey: Guid(e52f0b4f20e596d42ba35ea2978395f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_64.asset using Guid(e52f0b4f20e596d42ba35ea2978395f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448da9949941ddb98c417043b9bd890f') in 0.009998 seconds 
+  Import took 0.013231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_59.asset
+  artifactKey: Guid(933643c44f9828a46838168210d0ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_59.asset using Guid(933643c44f9828a46838168210d0ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c15d2a50acce2ee4272375fc65388d3') in 0.008836 seconds 
+  Import took 0.012143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_63.asset
+  artifactKey: Guid(18fb8baec77acb444a992920697d4f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_63.asset using Guid(18fb8baec77acb444a992920697d4f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58af4470cc38da20d815d741e196aa9') in 0.009073 seconds 
+  Import took 0.012186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_74.asset
+  artifactKey: Guid(92ebd9cb27de74543bf003d7d75f16e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_74.asset using Guid(92ebd9cb27de74543bf003d7d75f16e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af2eec6d2c2e5ecdd0d35f9791038f7') in 0.009792 seconds 
+  Import took 0.013114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_71.asset
+  artifactKey: Guid(f2a201675fb7b1d4ab8a2aba53be16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_71.asset using Guid(f2a201675fb7b1d4ab8a2aba53be16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8997c553947d566814fa5e35e801393b') in 0.011581 seconds 
+  Import took 0.015223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_91.asset
+  artifactKey: Guid(29d59fced1cefab4f917869daa344db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_91.asset using Guid(29d59fced1cefab4f917869daa344db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207b8f9c272e8d3ea959c877566849c2') in 0.009372 seconds 
+  Import took 0.012871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_87.asset
+  artifactKey: Guid(336d1f1b6dfc74540b7cefae0d67130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_87.asset using Guid(336d1f1b6dfc74540b7cefae0d67130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf645f978598b9ebcddf8f01ba8e20a3') in 0.012053 seconds 
+  Import took 0.015870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_89.asset
+  artifactKey: Guid(832b970dee3ae2c4fb998fe02f8603fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_89.asset using Guid(832b970dee3ae2c4fb998fe02f8603fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509c396ee35cb8774190c57ff644e87') in 0.009708 seconds 
+  Import took 0.013336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_68.asset
+  artifactKey: Guid(a9f75cf0d6151984e88ac3a6ecbad55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_68.asset using Guid(a9f75cf0d6151984e88ac3a6ecbad55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe18b0e5630883e6e489d27bbc46ead') in 0.009682 seconds 
+  Import took 0.013368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_70.asset
+  artifactKey: Guid(3c39c78e326319740a2a6af02dfa5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_70.asset using Guid(3c39c78e326319740a2a6af02dfa5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b76ff040c5a3d1a5942147385241ae') in 0.008863 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_86.asset
+  artifactKey: Guid(c45d1bb88b65453499220d1a55e58eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_86.asset using Guid(c45d1bb88b65453499220d1a55e58eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0589ddfd075998693c82cc252685b0b0') in 0.010257 seconds 
+  Import took 0.013520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_78.asset
+  artifactKey: Guid(092c71d1ae79e624ab467a4843eb5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_78.asset using Guid(092c71d1ae79e624ab467a4843eb5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f74330e7e68d48f0497125782589ed') in 0.009582 seconds 
+  Import took 0.013172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_85.asset
+  artifactKey: Guid(f4312f16c4e547b48b82d0a99a464272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_85.asset using Guid(f4312f16c4e547b48b82d0a99a464272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ae8ba77ed2ca21062f4c3c73adf341') in 0.010117 seconds 
+  Import took 0.014095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_92.asset
+  artifactKey: Guid(ecd69db42001d5e48ae5f2cf3d199d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_92.asset using Guid(ecd69db42001d5e48ae5f2cf3d199d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc90f0acd68713854523b7765a250379') in 0.009478 seconds 
+  Import took 0.012674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_75.asset
+  artifactKey: Guid(50b289e58310b6f4798aff2fc47cd806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_75.asset using Guid(50b289e58310b6f4798aff2fc47cd806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7019b528d2eabe25eb8f296426f53e3f') in 0.010651 seconds 
+  Import took 0.014091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_83.asset
+  artifactKey: Guid(267ea7235c8bea54d8bd9bfee65d7002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_83.asset using Guid(267ea7235c8bea54d8bd9bfee65d7002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a0550f152d3cc5c37721ee44adef63') in 0.011733 seconds 
+  Import took 0.015256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_79.asset
+  artifactKey: Guid(f97dafdbbf94bf8438dfc95241498829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_79.asset using Guid(f97dafdbbf94bf8438dfc95241498829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e51a673303d3c85256840f9e823ccd') in 0.011381 seconds 
+  Import took 0.014981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_88.asset
+  artifactKey: Guid(108ef72925bfab24e8aa0909c512d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_88.asset using Guid(108ef72925bfab24e8aa0909c512d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59b4afe4718c9e46b9da731333a8adb') in 0.010366 seconds 
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_65.asset
+  artifactKey: Guid(dfa76c8db074a5947a30bd524b4190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_65.asset using Guid(dfa76c8db074a5947a30bd524b4190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7953cdabed3d9288d3309b9b5bd9bcd1') in 0.010360 seconds 
+  Import took 0.013674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_76.asset
+  artifactKey: Guid(824af3a824afef94fa7ce1698ad5e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_76.asset using Guid(824af3a824afef94fa7ce1698ad5e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95a0609a60f2878fd1490d056ef6433') in 0.010948 seconds 
+  Import took 0.014442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_67.asset
+  artifactKey: Guid(039be61e9243c104fbd6a97eb4b12970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_67.asset using Guid(039be61e9243c104fbd6a97eb4b12970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd23764396badc693dcfab28fa2b608') in 0.009406 seconds 
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_93.asset
+  artifactKey: Guid(245bc0fbc40a986409838581fe8b1226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_93.asset using Guid(245bc0fbc40a986409838581fe8b1226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc1173b44365df615998938e587f573') in 0.011770 seconds 
+  Import took 0.015620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_84.asset
+  artifactKey: Guid(362e8623d339a3d4fa868d06fd11b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_84.asset using Guid(362e8623d339a3d4fa868d06fd11b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674e284cd64939318ddf055334381924') in 0.009972 seconds 
+  Import took 0.013189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_81.asset
+  artifactKey: Guid(f9732db04122a294ab9c8713e5e1b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_81.asset using Guid(f9732db04122a294ab9c8713e5e1b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ceae394e6897749969ee91043c89c8c') in 0.010999 seconds 
+  Import took 0.014483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_60.asset
+  artifactKey: Guid(b2c54422da1b8d24985c752aa526c037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_60.asset using Guid(b2c54422da1b8d24985c752aa526c037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a42acf61a6b5109853f39c4a839bf1b') in 0.010629 seconds 
+  Import took 0.013987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_77.asset
+  artifactKey: Guid(efdf5604c82acfe4cac17d8417c76a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_77.asset using Guid(efdf5604c82acfe4cac17d8417c76a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adde80d44b92b791007df8e891ae04e') in 0.011447 seconds 
+  Import took 0.015728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_90.asset
+  artifactKey: Guid(e00fc7b1bb6785d499628f1f3f2b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_90.asset using Guid(e00fc7b1bb6785d499628f1f3f2b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c6e3bbf68ffdff760f512e4795536') in 0.009539 seconds 
+  Import took 0.013220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_82.asset
+  artifactKey: Guid(58d610bfad524ec4c9e2c8e3b7e7751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_82.asset using Guid(58d610bfad524ec4c9e2c8e3b7e7751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e5e306e09a16497eabeef63ce028f8') in 0.009441 seconds 
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_72.asset
+  artifactKey: Guid(eca019f33449d374085170f0148325a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_72.asset using Guid(eca019f33449d374085170f0148325a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09fee6d9c7f23c66265ff78ae62b3b8') in 0.009478 seconds 
+  Import took 0.013507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_73.asset
+  artifactKey: Guid(a525767e1ee99ae4b9cd7d3fb69301a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_73.asset using Guid(a525767e1ee99ae4b9cd7d3fb69301a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86882763720532a64105b9e35ac6924') in 0.009799 seconds 
+  Import took 0.013187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_80.asset
+  artifactKey: Guid(76457bf569efcc643bfbee1381965174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_80.asset using Guid(76457bf569efcc643bfbee1381965174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d5ea5edee0b9b3ee6e751163fb442') in 0.009199 seconds 
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_69.asset
+  artifactKey: Guid(cc54e56240104a8489c4f6c7e0f7645b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_69.asset using Guid(cc54e56240104a8489c4f6c7e0f7645b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f95a65b4045c2d71ce1c567015d518d') in 0.009337 seconds 
+  Import took 0.014849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_62.asset
+  artifactKey: Guid(a4113807166494744b640e537f470276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_62.asset using Guid(a4113807166494744b640e537f470276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a200ec4c67326cbd51f9d251255569c5') in 0.009433 seconds 
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879117 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_94.asset
+  artifactKey: Guid(5433fd02196ec874993b1b068025a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_94.asset using Guid(5433fd02196ec874993b1b068025a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd7c8c4d8446fc1059475059e563b2') in 0.009475 seconds 
+  Import took 0.013091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_105.asset
+  artifactKey: Guid(926a32e3c1711154c8538ecc254852a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_105.asset using Guid(926a32e3c1711154c8538ecc254852a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7810b2761e28aa98f01f6fa8145e364a') in 0.008652 seconds 
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_116.asset
+  artifactKey: Guid(86688cbf8962bb14ebcf013dfda5f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_116.asset using Guid(86688cbf8962bb14ebcf013dfda5f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a08c2ffc4746411d8ab8f3f007b360') in 0.009063 seconds 
+  Import took 0.012690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_110.asset
+  artifactKey: Guid(9b21717eb3ef04e4fbd26efdf515de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_110.asset using Guid(9b21717eb3ef04e4fbd26efdf515de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faa3494316efaf3fac6d93d35aa4af9') in 0.010049 seconds 
+  Import took 0.013487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_124.asset
+  artifactKey: Guid(32e419d384ecf7341bb1745ad5ed0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_124.asset using Guid(32e419d384ecf7341bb1745ad5ed0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83b7a5dd0561b822109aec8c6572d57') in 0.010663 seconds 
+  Import took 0.014225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_127.asset
+  artifactKey: Guid(847549e34d0042240b44f46074304fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_127.asset using Guid(847549e34d0042240b44f46074304fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305362d7b089b6c923f6c568684822be') in 0.010222 seconds 
+  Import took 0.013986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_138.asset
+  artifactKey: Guid(d85dee8cb680b8e4e89834afefb8cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_138.asset using Guid(d85dee8cb680b8e4e89834afefb8cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a501d1bdf1555117768b96086fca0') in 0.009981 seconds 
+  Import took 0.013950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_126.asset
+  artifactKey: Guid(bd7860e92ef3a0e4abbe17abe9e6b43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_126.asset using Guid(bd7860e92ef3a0e4abbe17abe9e6b43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d44bb42404c1010a3506669e9f4907f') in 0.009745 seconds 
+  Import took 0.014441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_129.asset
+  artifactKey: Guid(93804f15aafcdfa4baa995d9883ba569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_129.asset using Guid(93804f15aafcdfa4baa995d9883ba569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31258d794c2c8f4ddb41dc8477d705d3') in 0.009551 seconds 
+  Import took 0.012900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_120.asset
+  artifactKey: Guid(6c24821bc1abad149aace8e24e56e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_120.asset using Guid(6c24821bc1abad149aace8e24e56e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e61bda96879cb51ee4557223bed85d4') in 0.009462 seconds 
+  Import took 0.013647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_133.asset
+  artifactKey: Guid(44a9515a0c0f0004eb728ba0cb916e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_133.asset using Guid(44a9515a0c0f0004eb728ba0cb916e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20629314923647b8e95f460d6d050f') in 0.009159 seconds 
+  Import took 0.013094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_122.asset
+  artifactKey: Guid(2021b2768811d1348bfafcdf851dea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_122.asset using Guid(2021b2768811d1348bfafcdf851dea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557b88c73a9d852e8d9e66e775d8ead6') in 0.010357 seconds 
+  Import took 0.013793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_118.asset
+  artifactKey: Guid(25e5b578b16bd7d4c9603cddb7b39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_118.asset using Guid(25e5b578b16bd7d4c9603cddb7b39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4858f8550770e866814e3b16c456bfd4') in 0.009550 seconds 
+  Import took 0.012914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_108.asset
+  artifactKey: Guid(e750a735286520647b62817cc1fde193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_108.asset using Guid(e750a735286520647b62817cc1fde193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3035e1075bcb7f361d1313c1dbdfe6e') in 0.009057 seconds 
+  Import took 0.013566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_111.asset
+  artifactKey: Guid(31b3d99ef4aa6bc4a9b89812586a2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_111.asset using Guid(31b3d99ef4aa6bc4a9b89812586a2230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2453de2cbf0a50afd67c757cbbe9ab43') in 0.008881 seconds 
+  Import took 0.012160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_123.asset
+  artifactKey: Guid(33838bb6184a04a42bcdbee6f4c1750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_123.asset using Guid(33838bb6184a04a42bcdbee6f4c1750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a67bb4fb347cbe90fadb91a4b2bf5') in 0.009707 seconds 
+  Import took 0.013271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_125.asset
+  artifactKey: Guid(966725dca2238e644862b3729c1f654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_125.asset using Guid(966725dca2238e644862b3729c1f654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c33bfd2a879b640a88ddb080f32c8') in 0.009628 seconds 
+  Import took 0.013438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_128.asset
+  artifactKey: Guid(56b9350eaf416644482ede74628c2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_128.asset using Guid(56b9350eaf416644482ede74628c2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27f41db07b579e8913269b9dbadb7b7') in 0.009996 seconds 
+  Import took 0.013059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_115.asset
+  artifactKey: Guid(6dd987dbd1997ff4daf8978317b63f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_115.asset using Guid(6dd987dbd1997ff4daf8978317b63f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279a5382642a3835fe082a3f1624d56e') in 0.009909 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_117.asset
+  artifactKey: Guid(f6dad855c880512408ea574104d83def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_117.asset using Guid(f6dad855c880512408ea574104d83def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa395e2c332d1b6e11890f861850470b') in 0.009285 seconds 
+  Import took 0.013059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_102.asset
+  artifactKey: Guid(62efda08779eff54ba93da13e289aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_102.asset using Guid(62efda08779eff54ba93da13e289aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79817612ea2cda4fdea706dc832b84bd') in 0.009990 seconds 
+  Import took 0.013887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_119.asset
+  artifactKey: Guid(bdfc267edd5c8de4c9d98a8236439c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_119.asset using Guid(bdfc267edd5c8de4c9d98a8236439c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eab03ff5545be4d96c84fd00ec4f63') in 0.009714 seconds 
+  Import took 0.014333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_100.asset
+  artifactKey: Guid(88d8bfd37960ada41aff0a3bd51c08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_100.asset using Guid(88d8bfd37960ada41aff0a3bd51c08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751133fc633a7974216c3391f22b7bf') in 0.008781 seconds 
+  Import took 0.012968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_106.asset
+  artifactKey: Guid(1f115784837e0c246829f69e20d36e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_106.asset using Guid(1f115784837e0c246829f69e20d36e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145cc98c4a40f89bc870124bd4304e5f') in 0.008932 seconds 
+  Import took 0.012732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_134.asset
+  artifactKey: Guid(422ad148e74c8bc4593126bc4e946556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_134.asset using Guid(422ad148e74c8bc4593126bc4e946556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbc720c1fc6ef96d1244e34a17e241e') in 0.010575 seconds 
+  Import took 0.014131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_112.asset
+  artifactKey: Guid(0463f0f16e3e2604484fa62a1f188ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_112.asset using Guid(0463f0f16e3e2604484fa62a1f188ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b127db58a468649063552f491ba53d') in 0.009178 seconds 
+  Import took 0.012652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_130.asset
+  artifactKey: Guid(3e6286985841b7f418725b01ab4f6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_130.asset using Guid(3e6286985841b7f418725b01ab4f6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39e122e8ffb02b8ff99f3744f74c454') in 0.009928 seconds 
+  Import took 0.013007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_152.asset
+  artifactKey: Guid(4e5f0a646d024e842b2f9253c81f7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_152.asset using Guid(4e5f0a646d024e842b2f9253c81f7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfd4b45493502a4ad075ba9133dca7a') in 0.009360 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_154.asset
+  artifactKey: Guid(6789cb606287ef143ba9cdec376f4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_154.asset using Guid(6789cb606287ef143ba9cdec376f4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0f9f138d22255b055ab446531120c4') in 0.009903 seconds 
+  Import took 0.013739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_165.asset
+  artifactKey: Guid(069d6d4b30f11d94694e1daf77492b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_165.asset using Guid(069d6d4b30f11d94694e1daf77492b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecabfc49072b5c3107a22d4344082d32') in 0.009445 seconds 
+  Import took 0.013175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_150.asset
+  artifactKey: Guid(1b62de9576e2b784bb6e1c3e253c0b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_150.asset using Guid(1b62de9576e2b784bb6e1c3e253c0b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d62b90d096eca4ef87bf917f7c724') in 0.008734 seconds 
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_174.asset
+  artifactKey: Guid(2ce5b8254edabc547bf40dfb8583b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_174.asset using Guid(2ce5b8254edabc547bf40dfb8583b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e53b72107dfa0d64235d7c15f5d874') in 0.009524 seconds 
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_168.asset
+  artifactKey: Guid(57c28138163412342af53b94a2c398d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_168.asset using Guid(57c28138163412342af53b94a2c398d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d8c2ac05ed0eedad5dfa37933f17a4') in 0.009569 seconds 
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_149.asset
+  artifactKey: Guid(84e1decb76dbcc2429a2fb2750e99360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_149.asset using Guid(84e1decb76dbcc2429a2fb2750e99360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3837d003d3ccc2028a56844851b427e') in 0.011685 seconds 
+  Import took 0.016013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_159.asset
+  artifactKey: Guid(594b61b362a613c44aed1e90de3ba26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_159.asset using Guid(594b61b362a613c44aed1e90de3ba26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df23893a2d1a06abd33a1a0f87484d2') in 0.009462 seconds 
+  Import took 0.013105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_171.asset
+  artifactKey: Guid(72214cd2b94ff2a40a770dc5f010568f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_171.asset using Guid(72214cd2b94ff2a40a770dc5f010568f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851416e95dc645c0a8281a2ec10e5377') in 0.009246 seconds 
+  Import took 0.012931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_156.asset
+  artifactKey: Guid(7e6e108e1c1d4d14894233d3e49aef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_156.asset using Guid(7e6e108e1c1d4d14894233d3e49aef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05710c18a2e316bf2f2ff46466219dcb') in 0.009301 seconds 
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_142.asset
+  artifactKey: Guid(e675ece13bce4a048a4fe9d1c30ac213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_142.asset using Guid(e675ece13bce4a048a4fe9d1c30ac213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfbea61968ca87f0ad7011c8fff209f') in 0.009857 seconds 
+  Import took 0.014270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_158.asset
+  artifactKey: Guid(452558fede4b2ed4b8074630c4dc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_158.asset using Guid(452558fede4b2ed4b8074630c4dc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da896b934a077af7ceba3726f5f5eeb') in 0.009473 seconds 
+  Import took 0.013017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_145.asset
+  artifactKey: Guid(6921783b750eff2408c9dd08491c8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_145.asset using Guid(6921783b750eff2408c9dd08491c8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b1e67d9634c025c280000fd87a5bb') in 0.010503 seconds 
+  Import took 0.013957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_175.asset
+  artifactKey: Guid(5227521ff30b74240bfe460dcab8cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_175.asset using Guid(5227521ff30b74240bfe460dcab8cb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2462c8724b280522352e4810e97b1a') in 0.010030 seconds 
+  Import took 0.013799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_177.asset
+  artifactKey: Guid(9f1b46eb11cef034b9bf08dcb8f81258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_177.asset using Guid(9f1b46eb11cef034b9bf08dcb8f81258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7461a1262d7d409a37a2e5c8f3d7967') in 0.009607 seconds 
+  Import took 0.012981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_163.asset
+  artifactKey: Guid(12b9d131414974e4a90b6414b23ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_163.asset using Guid(12b9d131414974e4a90b6414b23ae453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cda7d14ab14b6d7acd4a8eb9f046cf') in 0.009689 seconds 
+  Import took 0.012855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_176.asset
+  artifactKey: Guid(f64b8f2a105e54943b23f7d1ed3bc407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_176.asset using Guid(f64b8f2a105e54943b23f7d1ed3bc407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73e38506dcd0c5c0ce94007f1dbc6b7') in 0.010149 seconds 
+  Import took 0.013567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_103.asset
+  artifactKey: Guid(c5db02ae2c93d2147ba7592b69bc8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_103.asset using Guid(c5db02ae2c93d2147ba7592b69bc8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3622c6df76739edde4976c7502aa64bb') in 0.009122 seconds 
+  Import took 0.012730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_140.asset
+  artifactKey: Guid(b6d1724cfce50d5458d8db9e441c59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_140.asset using Guid(b6d1724cfce50d5458d8db9e441c59a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a8c473df56c9d45179dbabc20fda53') in 0.010474 seconds 
+  Import took 0.014371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_160.asset
+  artifactKey: Guid(0d5aa7e7a4ded424a8b25a77a54f53a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_160.asset using Guid(0d5aa7e7a4ded424a8b25a77a54f53a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329bf5ab56d32dded2a79a3a6d4d031e') in 0.009487 seconds 
+  Import took 0.014035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_143.asset
+  artifactKey: Guid(4c8783003905bd5448b99439458c5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_143.asset using Guid(4c8783003905bd5448b99439458c5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff196ceb6085d31a13001f63f8f2d859') in 0.009641 seconds 
+  Import took 0.015274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_147.asset
+  artifactKey: Guid(ba7f42db2965a8b47add41f5257e80f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_147.asset using Guid(ba7f42db2965a8b47add41f5257e80f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcc56a162aef40ad295e47facda15a2') in 0.009699 seconds 
+  Import took 0.013173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_95.asset
+  artifactKey: Guid(dc623423933ff4644b85507ed4188ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_95.asset using Guid(dc623423933ff4644b85507ed4188ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b50f62035ce95288d4b2c7cde2ad78') in 0.010219 seconds 
+  Import took 0.013461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_137.asset
+  artifactKey: Guid(c66cc535762c121408cfe4d8612e1b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_137.asset using Guid(c66cc535762c121408cfe4d8612e1b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56377a2f6959273eee921014090c6f21') in 0.009111 seconds 
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_181.asset
+  artifactKey: Guid(78902c09a1a752e4fb5c79769cc20377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_181.asset using Guid(78902c09a1a752e4fb5c79769cc20377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fbdedc506583251a1d69308a974c79') in 0.010424 seconds 
+  Import took 0.014037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_189.asset
+  artifactKey: Guid(c9c42a0a45066924cbff3d5c9002d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_189.asset using Guid(c9c42a0a45066924cbff3d5c9002d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887f5230f925b88e11d9065ceff52df3') in 0.010326 seconds 
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_197.asset
+  artifactKey: Guid(084faafeeedec2849ac7916a1f0164f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_197.asset using Guid(084faafeeedec2849ac7916a1f0164f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d6a7366c8e9c1ee61bc6266e9e994e') in 0.009213 seconds 
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_194.asset
+  artifactKey: Guid(4c0309b9dc96d51498396860a1006838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_194.asset using Guid(4c0309b9dc96d51498396860a1006838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba38dae6d200705cec96fd6eeab51e79') in 0.009509 seconds 
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_185.asset
+  artifactKey: Guid(013de928a09a31541a63e45f71ebe830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_185.asset using Guid(013de928a09a31541a63e45f71ebe830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011bf4d6d4c7661541bb42ae1a76a5cd') in 0.009541 seconds 
+  Import took 0.013340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_215.asset
+  artifactKey: Guid(7494414fd620fc94a92dd06ef45794a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_215.asset using Guid(7494414fd620fc94a92dd06ef45794a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09b0b4de13478ac63bbc0238538bf60') in 0.008776 seconds 
+  Import took 0.012191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_220.asset
+  artifactKey: Guid(50593391dee27ad449a3e3345e54f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_220.asset using Guid(50593391dee27ad449a3e3345e54f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751290763d93ac6c8fb157c0bdb8030') in 0.009192 seconds 
+  Import took 0.012521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_222.asset
+  artifactKey: Guid(9213fc3f73c29914d87565da5ce276a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_222.asset using Guid(9213fc3f73c29914d87565da5ce276a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9e98eeaafc738a7242a0d77a53f470') in 0.009375 seconds 
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_225.asset
+  artifactKey: Guid(08bd93b4711d2ee49892948c1945cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_225.asset using Guid(08bd93b4711d2ee49892948c1945cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d811aec4a3c6e6ab39690506f051fa1') in 0.009059 seconds 
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_204.asset
+  artifactKey: Guid(07f3433e84394904f80f2112f5eb2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_204.asset using Guid(07f3433e84394904f80f2112f5eb2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2fc96fbf196977ab762b7534ce4bc4') in 0.010993 seconds 
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_219.asset
+  artifactKey: Guid(8f1a0e3dfa384134f8628359e9d82da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_219.asset using Guid(8f1a0e3dfa384134f8628359e9d82da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10576b8907b0950e04629d61b5be2ef7') in 0.010612 seconds 
+  Import took 0.013824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_209.asset
+  artifactKey: Guid(2312a36ffd66a42449d9a0c2270279d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_209.asset using Guid(2312a36ffd66a42449d9a0c2270279d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12178a1e1a35bc101ffb5c56090fe055') in 0.011275 seconds 
+  Import took 0.014690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_182.asset
+  artifactKey: Guid(bd0140ec06de2244da5cf4448806d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_182.asset using Guid(bd0140ec06de2244da5cf4448806d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9086d6c960d9c5517d06088c494fdf86') in 0.009507 seconds 
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_188.asset
+  artifactKey: Guid(9d861adefd0d51142bf67199ddce06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_188.asset using Guid(9d861adefd0d51142bf67199ddce06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0026bc052d2af8eb61b855464d7fd127') in 0.010432 seconds 
+  Import took 0.014311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_104.asset
+  artifactKey: Guid(56cfb389bf04298459a29bfd36722896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_104.asset using Guid(56cfb389bf04298459a29bfd36722896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c4877c5a2a5e65e8cc18dc3fdaa7e5') in 0.010379 seconds 
+  Import took 0.013768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_223.asset
+  artifactKey: Guid(5aee8bd7ba869f748bb7f007d700bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_223.asset using Guid(5aee8bd7ba869f748bb7f007d700bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbc693bfaca2b3382981b09cad3a991') in 0.009112 seconds 
+  Import took 0.012487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_221.asset
+  artifactKey: Guid(d0b7736664c93704389ff5c1da1f17ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_221.asset using Guid(d0b7736664c93704389ff5c1da1f17ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1633228e1c2c1093e1991e49a75e68') in 0.008616 seconds 
+  Import took 0.011913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_113.asset
+  artifactKey: Guid(0f8c31ec04399e6488856ddba70d0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_113.asset using Guid(0f8c31ec04399e6488856ddba70d0fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fbf90631c7db2ed7b9d903fa76fa6e') in 0.012390 seconds 
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_217.asset
+  artifactKey: Guid(f8e7161979f566041b6c28e857b40746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_217.asset using Guid(f8e7161979f566041b6c28e857b40746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556e942e524779449af032e474f0dae4') in 0.009292 seconds 
+  Import took 0.013198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_99.asset
+  artifactKey: Guid(db21dd68121d1664ca524599e87a23bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_99.asset using Guid(db21dd68121d1664ca524599e87a23bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cefcac196e72aadb33772abd7b5c945') in 0.011878 seconds 
+  Import took 0.015742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_190.asset
+  artifactKey: Guid(9483e5b04474835429ba19e640034891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_190.asset using Guid(9483e5b04474835429ba19e640034891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716064c12e4fc4837cd8112b8dcf8ea4') in 0.010920 seconds 
+  Import took 0.015443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_180.asset
+  artifactKey: Guid(c399ec484f7efa34f94d79e05be4f70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_180.asset using Guid(c399ec484f7efa34f94d79e05be4f70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c804e5561f2a3144ff22b929098e25') in 0.011723 seconds 
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_208.asset
+  artifactKey: Guid(07fceb5eb4d1d5342a09e56e79a76b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_208.asset using Guid(07fceb5eb4d1d5342a09e56e79a76b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452f90a475f007d6d1bdce4475beeddc') in 0.010681 seconds 
+  Import took 0.014271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_121.asset
+  artifactKey: Guid(14683fb4c955cf747adbc04e2e3ba5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_121.asset using Guid(14683fb4c955cf747adbc04e2e3ba5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f990fd7c8968109308fca17fdf581ed0') in 0.009958 seconds 
+  Import took 0.013044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_212.asset
+  artifactKey: Guid(757a9d2094496234891a8cffdec94278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_212.asset using Guid(757a9d2094496234891a8cffdec94278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7832db2a2318982af1ab0693656eca2f') in 0.011473 seconds 
+  Import took 0.015279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_136.asset
+  artifactKey: Guid(f86b6e4291d125a43a8aebf428d8ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_136.asset using Guid(f86b6e4291d125a43a8aebf428d8ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5207b0a9740805c99ad5d949a98f6e92') in 0.010830 seconds 
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_192.asset
+  artifactKey: Guid(71a76b9b023496540ad9a7b08cafad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_192.asset using Guid(71a76b9b023496540ad9a7b08cafad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce27bbbe704382ea4de03d3a8c8120') in 0.010403 seconds 
+  Import took 0.014066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_213.asset
+  artifactKey: Guid(d28f85c7f5b64634580ca7fe8cbe49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_213.asset using Guid(d28f85c7f5b64634580ca7fe8cbe49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3a2109e53af8e4571cb5d11612d02c') in 0.008968 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_184.asset
+  artifactKey: Guid(b9415a467f0858c4cb96412197e1a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_184.asset using Guid(b9415a467f0858c4cb96412197e1a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3a1be8ac0a37e974a9ba816119d739') in 0.010108 seconds 
+  Import took 0.013774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_211.asset
+  artifactKey: Guid(2484c5a77a85e3745b2a5da4359ae02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_211.asset using Guid(2484c5a77a85e3745b2a5da4359ae02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ff55c1495c317d14520ff8b809a5a') in 0.009173 seconds 
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_114.asset
+  artifactKey: Guid(57366ef5772066144a1e4808a344a197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_114.asset using Guid(57366ef5772066144a1e4808a344a197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45789475b040d94510cbfaf676c022ca') in 0.010632 seconds 
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_162.asset
+  artifactKey: Guid(8fb6eaadfcd3a6d4ea8ef6c931937a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_162.asset using Guid(8fb6eaadfcd3a6d4ea8ef6c931937a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34353790014ed58a7c0ada81726ac42') in 0.009969 seconds 
+  Import took 0.013364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_146.asset
+  artifactKey: Guid(4e4c98f445fe9334eb1fdb8ccf73606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_146.asset using Guid(4e4c98f445fe9334eb1fdb8ccf73606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c60cae5e202e8d3b15b8c137c8b0b46') in 0.009677 seconds 
+  Import took 0.012909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_170.asset
+  artifactKey: Guid(ea5b839d83b48a746868c9f388f88430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_170.asset using Guid(ea5b839d83b48a746868c9f388f88430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7128c126392bcd1da023191a579c74') in 0.009054 seconds 
+  Import took 0.012152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_216.asset
+  artifactKey: Guid(61b142ccbcc4c664899c58fda9c12586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_216.asset using Guid(61b142ccbcc4c664899c58fda9c12586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cc7ff3c9eb7a334715dbd72de32bf1') in 0.010032 seconds 
+  Import took 0.013422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_199.asset
+  artifactKey: Guid(6f84c5e20681a504e95db3699df789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_199.asset using Guid(6f84c5e20681a504e95db3699df789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8f1a6ac77e2bed65c37a8195ff738d') in 0.008898 seconds 
+  Import took 0.012116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_202.asset
+  artifactKey: Guid(76d134ed8c8bdbd46ac0c46f17def97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_202.asset using Guid(76d134ed8c8bdbd46ac0c46f17def97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665c79a2d09b0cbb3aadbea9b1dac2e3') in 0.011380 seconds 
+  Import took 0.014479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_200.asset
+  artifactKey: Guid(e9c212654ef0b994d805757e8eddac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_200.asset using Guid(e9c212654ef0b994d805757e8eddac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1bb1b3b398e542d116fb5d8bcf92f') in 0.010936 seconds 
+  Import took 0.014682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_183.asset
+  artifactKey: Guid(9caf284bb499d79469ab4fe03ce8e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_183.asset using Guid(9caf284bb499d79469ab4fe03ce8e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a873cf78313f7396aba43af9c8027c') in 0.009475 seconds 
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_214.asset
+  artifactKey: Guid(fba41562513916e4ba1ccbe925a5ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_214.asset using Guid(fba41562513916e4ba1ccbe925a5ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fe7ee9481b90db7fb04d8bfdb9e9ab') in 0.008853 seconds 
+  Import took 0.012070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_218.asset
+  artifactKey: Guid(6576a5e8b4fb5cc419d2b9a256e74106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_218.asset using Guid(6576a5e8b4fb5cc419d2b9a256e74106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8eadd5c764dcb160ea653245e96d1f') in 0.008606 seconds 
+  Import took 0.012008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_186.asset
+  artifactKey: Guid(541d8a571fa2e194f827f6386c739773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_186.asset using Guid(541d8a571fa2e194f827f6386c739773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9c527cf5210aeddc9f6333c00af5af') in 0.013428 seconds 
+  Import took 0.016935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_187.asset
+  artifactKey: Guid(84d381712834b8a4cbc32c3238bbd6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_187.asset using Guid(84d381712834b8a4cbc32c3238bbd6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c672a3f919eccf71bcdd49bd41e5378') in 0.011838 seconds 
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_191.asset
+  artifactKey: Guid(b8a6c4866400050448d7b1ffee2fe346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_191.asset using Guid(b8a6c4866400050448d7b1ffee2fe346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ed435338ab1204216ff356c225a40b') in 0.009385 seconds 
+  Import took 0.013165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_198.asset
+  artifactKey: Guid(363f03b6dd8817841be60b78a4c95ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_198.asset using Guid(363f03b6dd8817841be60b78a4c95ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d820365f37d9063fa65df4d8e7847b') in 0.010003 seconds 
+  Import took 0.013810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_179.asset
+  artifactKey: Guid(9ac3fb11bfc6f3241ba65f12a2e74fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_179.asset using Guid(9ac3fb11bfc6f3241ba65f12a2e74fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d2415a921dd6e432099946f14e5135') in 0.009677 seconds 
+  Import took 0.012791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_205.asset
+  artifactKey: Guid(2db1458c5e60e2e4097e91ad00ea6d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_205.asset using Guid(2db1458c5e60e2e4097e91ad00ea6d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711fc53e7edafec596478071af883b0b') in 0.009380 seconds 
+  Import took 0.012537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_195.asset
+  artifactKey: Guid(897bfc164ee7f694f9f859a7e9a74bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_195.asset using Guid(897bfc164ee7f694f9f859a7e9a74bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a43d460d31bf933f068fe7f37749d35') in 0.010860 seconds 
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_206.asset
+  artifactKey: Guid(1f3a7c588b6b1d44086acb0201cf8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_206.asset using Guid(1f3a7c588b6b1d44086acb0201cf8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3cb5572e3c4631946bf90c27baa9cb') in 0.010969 seconds 
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_224.asset
+  artifactKey: Guid(ae94a9610181fc64da3e22539208a57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_224.asset using Guid(ae94a9610181fc64da3e22539208a57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f084a1df1dfb90eab905024cc283b9') in 0.009435 seconds 
+  Import took 0.012873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_178.asset
+  artifactKey: Guid(774746819ad89bd4ebf8e266880cfae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_178.asset using Guid(774746819ad89bd4ebf8e266880cfae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c916d25728a256c6cea669328d91466') in 0.009279 seconds 
+  Import took 0.012882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_207.asset
+  artifactKey: Guid(d2a146e5db8131444aabe43e157a87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_207.asset using Guid(d2a146e5db8131444aabe43e157a87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00823265cb2b1570ebd6dfb9b0b4f708') in 0.008937 seconds 
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_166.asset
+  artifactKey: Guid(17729e3582fc35b4db7b933be373b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_166.asset using Guid(17729e3582fc35b4db7b933be373b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45361c319ca57c3324ada3d827a564d9') in 0.009354 seconds 
+  Import took 0.012439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_172.asset
+  artifactKey: Guid(363f60124bf475c429da5aff68de019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_172.asset using Guid(363f60124bf475c429da5aff68de019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a4bcc12a3f3c948b3e3b283e24b74d') in 0.008759 seconds 
+  Import took 0.012143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_210.asset
+  artifactKey: Guid(56f8a1542a3747a4c9c4196d4867a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_210.asset using Guid(56f8a1542a3747a4c9c4196d4867a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3bedcbe89b32ed283755da62678e20') in 0.009910 seconds 
+  Import took 0.013419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_167.asset
+  artifactKey: Guid(b456a9b21a0905a4e9dde9a0d7c9805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_167.asset using Guid(b456a9b21a0905a4e9dde9a0d7c9805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2b9633b559e04cf23cb3d31d88c9cc') in 0.009754 seconds 
+  Import took 0.013759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_96.asset
+  artifactKey: Guid(7491e60806b00014096800a60debfe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_96.asset using Guid(7491e60806b00014096800a60debfe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8f7364acf8576befdc7fd7848baebf') in 0.009999 seconds 
+  Import took 0.014071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_101.asset
+  artifactKey: Guid(d09cfb6e807d053488c747ae2176286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_101.asset using Guid(d09cfb6e807d053488c747ae2176286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be73b2dcdcde6a93a9d8dcf40273fc67') in 0.009784 seconds 
+  Import took 0.013593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_98.asset
+  artifactKey: Guid(57996e47cd368da4eb4ef790bfe91f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_98.asset using Guid(57996e47cd368da4eb4ef790bfe91f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f312ddbdd3869ec096c9377bd135de') in 0.010723 seconds 
+  Import took 0.014847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_161.asset
+  artifactKey: Guid(5b5b47e803254cb4b9ac9663ebf2a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_161.asset using Guid(5b5b47e803254cb4b9ac9663ebf2a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767fc6bd851981ab595fdcf7c9ec69c4') in 0.011538 seconds 
+  Import took 0.014810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_164.asset
+  artifactKey: Guid(88bdc19a60ecbc54f843c99b75a76eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_164.asset using Guid(88bdc19a60ecbc54f843c99b75a76eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc287cf75c82d5fc6df83ac92dccc9e') in 0.010729 seconds 
+  Import took 0.013965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_107.asset
+  artifactKey: Guid(18e7e79bbc0f1ab47a956e7d3751d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_107.asset using Guid(18e7e79bbc0f1ab47a956e7d3751d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cdcbd7770e058330e3e7cf4b2cc7ac') in 0.010574 seconds 
+  Import took 0.014712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_151.asset
+  artifactKey: Guid(854c9aa55cb65dc43a3333c84eb0e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_151.asset using Guid(854c9aa55cb65dc43a3333c84eb0e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacf83f23770b465f22ca73d898bcdd2') in 0.010514 seconds 
+  Import took 0.014894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_173.asset
+  artifactKey: Guid(461b5bef167d32641b931601704e6198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_173.asset using Guid(461b5bef167d32641b931601704e6198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51df12e7463481c1fd0661faad883daa') in 0.009454 seconds 
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_193.asset
+  artifactKey: Guid(26343dd0eb393d84bb2dcc66c027e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_193.asset using Guid(26343dd0eb393d84bb2dcc66c027e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7359b1399fa5bb56efa36745e692b5') in 0.010778 seconds 
+  Import took 0.015308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_144.asset
+  artifactKey: Guid(ac48416ee9f9f13458a0963e610322ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_144.asset using Guid(ac48416ee9f9f13458a0963e610322ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa2e95a23625ec442561fef55d77452') in 0.011012 seconds 
+  Import took 0.014866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_201.asset
+  artifactKey: Guid(920fad6d2e2379e47ad5cabb8801e8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_201.asset using Guid(920fad6d2e2379e47ad5cabb8801e8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf732f45572949b88ec0ebd7231445a') in 0.010708 seconds 
+  Import took 0.014772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_141.asset
+  artifactKey: Guid(d69923e764e159741ad76b09bb9d45f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_141.asset using Guid(d69923e764e159741ad76b09bb9d45f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b4e2e916ba97f2a70efdab8f8bd696') in 0.010045 seconds 
+  Import took 0.014294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_131.asset
+  artifactKey: Guid(ea15827a2e03cff4d826c83d53668811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_131.asset using Guid(ea15827a2e03cff4d826c83d53668811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2e72368c248f4da060c2f409bd0716') in 0.010034 seconds 
+  Import took 0.013676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_155.asset
+  artifactKey: Guid(a9e49036abc5c074284c143fcce58a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_155.asset using Guid(a9e49036abc5c074284c143fcce58a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3447fd6ab45b8601a245041e8545ae') in 0.009242 seconds 
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_97.asset
+  artifactKey: Guid(a0f870a64605b6844a215a1cd90c6887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_97.asset using Guid(a0f870a64605b6844a215a1cd90c6887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd58ff708f1bc113cc7eb7577c91b22') in 0.009586 seconds 
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_132.asset
+  artifactKey: Guid(3aa68768dd7644e4d936e9d196488d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_132.asset using Guid(3aa68768dd7644e4d936e9d196488d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78966a1df4c201e485e29f741e82b949') in 0.010183 seconds 
+  Import took 0.014243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_148.asset
+  artifactKey: Guid(8e5bb5cf25cc9aa458f1a6b141886c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_148.asset using Guid(8e5bb5cf25cc9aa458f1a6b141886c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252eff944d49af9292f58a406569d40e') in 0.009288 seconds 
+  Import took 0.012967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_139.asset
+  artifactKey: Guid(3f87d5203620f7240897beb17918a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_139.asset using Guid(3f87d5203620f7240897beb17918a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b55b83381f599fe930968477a08a2f') in 0.009291 seconds 
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_196.asset
+  artifactKey: Guid(d72ac3b7158ac92479a920de9b7e8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_196.asset using Guid(d72ac3b7158ac92479a920de9b7e8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6035ca64521da28946d74665e65b14cc') in 0.010422 seconds 
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_203.asset
+  artifactKey: Guid(8953f05a5de7bba4e94290562dc41035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_203.asset using Guid(8953f05a5de7bba4e94290562dc41035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab44df653fe61ac8b8ea4955a5bdd09') in 0.009433 seconds 
+  Import took 0.013112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_109.asset
+  artifactKey: Guid(bb3d87bbae85e6741a52a2300b55eec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_109.asset using Guid(bb3d87bbae85e6741a52a2300b55eec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f96e9cba3a01cf352cbd0b16024c451') in 0.010023 seconds 
+  Import took 0.013661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_157.asset
+  artifactKey: Guid(89b42ff7667f6f7469793472ed06b380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_157.asset using Guid(89b42ff7667f6f7469793472ed06b380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeefd602a85643ef8c90959882b54479') in 0.010334 seconds 
+  Import took 0.014835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_135.asset
+  artifactKey: Guid(473fcd99cb4e8144db0367bb6f8937e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_135.asset using Guid(473fcd99cb4e8144db0367bb6f8937e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fe280696bb6cd07b4f8e431de4bccf') in 0.010863 seconds 
+  Import took 0.014919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_169.asset
+  artifactKey: Guid(2c32434b2f9c20c4ba9c44bbecf569d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_169.asset using Guid(2c32434b2f9c20c4ba9c44bbecf569d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db5ddc1894b667d576e70e8ffd90d4') in 0.010275 seconds 
+  Import took 0.014747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Tiles/scifi_platformTiles_16x16_153.asset
+  artifactKey: Guid(ae0e1c61745cb1e45988bf3a7d751c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/scifi_platformTiles_16x16_153.asset using Guid(ae0e1c61745cb1e45988bf3a7d751c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30efc070d10a5525344826795e124d93') in 0.009697 seconds 
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.276670 seconds.
+  path: Assets/PhysicsMats/Player.physicsMaterial2D
+  artifactKey: Guid(188e920ea4603d94a9a444759c985ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PhysicsMats/Player.physicsMaterial2D using Guid(188e920ea4603d94a9a444759c985ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820586a2e54a44fe2334de7419e23e28') in 0.008661 seconds 
+  Import took 0.012682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.359605 seconds.
+  path: Assets/Image1.png
+  artifactKey: Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image1.png using Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad69fd8b5bf8b95e5533c9e16448404') in 0.016573 seconds 
+  Import took 0.020418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.516671 seconds.
+  path: Assets/Image1.png
+  artifactKey: Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image1.png using Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c537a56109d171347667b18e7aa4fd') in 0.008297 seconds 
+  Import took 0.012045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.702768 seconds.
+  path: Assets/Image1.png
+  artifactKey: Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image1.png using Guid(3da0c31d2f8ebe549933e6ead11a0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b69f2910211570746bef81cfdd89480') in 0.012643 seconds 
+  Import took 0.016233 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 3.286300 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.057500 ms MarkObjects: 2.857700 ms  DeleteObjects: 0.140400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 161.336416 seconds.
+  path: Assets/Scenes/someartassests.unity
+  artifactKey: Guid(b378efba5f898314a805f09f8eccf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/someartassests.unity using Guid(b378efba5f898314a805f09f8eccf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b064e35a4fb1b067497f169eb6d890cd') in 0.016288 seconds 
+  Import took 0.019935 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
